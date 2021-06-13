@@ -1,0 +1,45 @@
+.MODEL SMALL
+.STACK
+.DATA
+    N1 DB 0                 
+    N2 DB 0                
+    N3 DB 0                 
+    M1 DB 10,13,' First Number  : $'   
+    M2 DB 10,13,' Secund Number : $'  
+    M3 DB 10,13,' Result        : $'  
+.CODE
+MAIN:
+    MOV AX, @DATA           
+    MOV DS, AX              
+        
+    MOV AH, 9               
+    LEA DX, M1             
+    INT 21H                 
+    MOV AH, 1               
+    INT 21H                 
+    SUB AL, 30H             
+    MOV N1, AL              
+
+    MOV AH, 9               
+    LEA DX, M2
+    INT 21H
+    MOV AH, 1
+    INT 21H
+    SUB AL, 30H
+    MOV N2, AL
+    
+    MOV AL, N1              
+    ADD AL, N2              
+    ADD AL, 30H            
+    MOV N3, AL              
+
+    MOV AH, 9
+    LEA DX, M3
+    INT 21H
+    MOV AH, 2              
+    MOV DL, N3              
+    INT 21H     
+
+    MOV AH, 4cH             
+    INT 21H
+END MAIN

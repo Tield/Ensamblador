@@ -1,0 +1,45 @@
+1 |     .MODEL SMALL
+2 |     .STACK
+3 |     .DATA
+4 |         N1 DB 0                 
+5 |         N2 DB 0                
+6 |         N3 DB 0                 
+7 |         M1 DB 10,13,' First Number  : $'   
+8 |         M2 DB 10,13,' Secund Number : $'  
+9 |         M3 DB 10,13,' Result        : $'  
+10 |     .CODE
+11 |     MAIN:
+12 |         MOV AX, @DATA           
+13 |         MOV DS, AX              
+14 |             
+15 |         MOV AH, 9               
+16 |         LEA DX, M1             
+17 |         INT 21H                 
+18 |         MOV AH, 1               
+19 |         INT 21H                 
+20 |         SUB AL, 30H             
+21 |         MOV N1, AL              
+22 |     
+23 |         MOV AH, 9               
+24 |         LEA DX, M2
+25 |         INT 21H
+26 |         MOV AH, 1
+27 |         INT 21H
+28 |         SUB AL, 30H
+29 |         MOV N2, AL
+30 |         
+31 |         MOV AL, N1              
+32 |         ADD AL, N2              
+33 |         ADD AL, 30H            
+34 |         MOV N3, AL              
+35 |     
+36 |         MOV AH, 9
+37 |         LEA DX, M3
+38 |         INT 21H
+39 |         MOV AH, 2              
+40 |         MOV DL, N3              
+41 |         INT 21H     
+42 |     
+43 |         MOV AH, 4cH             
+44 |         INT 21H
+45 |     END MAIN

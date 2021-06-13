@@ -1,0 +1,14 @@
+			TABLA DE PALABRAS RESERVADAS	
+------------------------------------------------------------------
+	AX
+	AX
+	DX
+	DX
+	DX
+			TABLA DE PALABRAS RESERVADAS	
+------------------------------------------------------------------
+	AX
+	AX
+	DX
+	DX
+	DX

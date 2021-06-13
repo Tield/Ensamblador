@@ -1,0 +1,59 @@
+				TABLA DE SIMBOLOS	
+--------------------------------------------------------------------
+TIPO		ETIQUETA	USO		DIRECCION	VALOR
+		MODEL		Variable	4240956			SMALL		Variable	4240956			STACK		Variable	4240956			DATA		Variable	4240956			N1		Variable	4240956			DB		Variable	4240956	
+	0		N2		Variable	4240956			DB		Variable	4240956	
+	0		N3		Variable	4240956			DB		Variable	4240956	
+	0		M1		Variable	4240956			DB		Variable	4240956	
+	10
+	13		First		Variable	4240956			Number		Variable	4240956			M2		Variable	4240956			DB		Variable	4240956	
+	10
+	13		Secund		Variable	4240956			Number		Variable	4240956			M3		Variable	4240956			DB		Variable	4240956	
+	10
+	13		Result		Variable	4240956			CODE		Variable	4240956			MAIN		Variable	4240956			MOV		Variable	4240956			DATA		Variable	4240956			MOV		Variable	4240956			DS		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M1		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	1		INT		Variable	4240956	
+	21		H		Variable	4240956			SUB		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N1		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M2		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	1		INT		Variable	4240956	
+	21		H		Variable	4240956			SUB		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N2		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AL		Variable	4240956			N1		Variable	4240956			ADD		Variable	4240956			AL		Variable	4240956			N2		Variable	4240956			ADD		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N3		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M3		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	2		MOV		Variable	4240956			DL		Variable	4240956			N3		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	4		cH		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			END		Variable	4240956			MAIN		Variable	4240956					TABLA DE SIMBOLOS	
+--------------------------------------------------------------------
+TIPO		ETIQUETA	USO		DIRECCION	VALOR
+		MODEL		Variable	4240956			SMALL		Variable	4240956			STACK		Variable	4240956			DATA		Variable	4240956			N1		Variable	4240956			DB		Variable	4240956	
+	0		N2		Variable	4240956			DB		Variable	4240956	
+	0		N3		Variable	4240956			DB		Variable	4240956	
+	0		M1		Variable	4240956			DB		Variable	4240956	
+	10
+	13		First		Variable	4240956			Number		Variable	4240956			M2		Variable	4240956			DB		Variable	4240956	
+	10
+	13		Secund		Variable	4240956			Number		Variable	4240956			M3		Variable	4240956			DB		Variable	4240956	
+	10
+	13		Result		Variable	4240956			CODE		Variable	4240956			MAIN		Variable	4240956			MOV		Variable	4240956			DATA		Variable	4240956			MOV		Variable	4240956			DS		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M1		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	1		INT		Variable	4240956	
+	21		H		Variable	4240956			SUB		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N1		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M2		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	1		INT		Variable	4240956	
+	21		H		Variable	4240956			SUB		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N2		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AL		Variable	4240956			N1		Variable	4240956			ADD		Variable	4240956			AL		Variable	4240956			N2		Variable	4240956			ADD		Variable	4240956			AL		Variable	4240956	
+	30		H		Variable	4240956			MOV		Variable	4240956			N3		Variable	4240956			AL		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	9		LEA		Variable	4240956			M3		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	2		MOV		Variable	4240956			DL		Variable	4240956			N3		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			MOV		Variable	4240956			AH		Variable	4240956	
+	4		cH		Variable	4240956			INT		Variable	4240956	
+	21		H		Variable	4240956			END		Variable	4240956			MAIN		Variable	4240956	

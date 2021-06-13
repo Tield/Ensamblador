@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1539804228 source:d:\ensamblador\ensamblador\main.cpp
+	<conio.h>
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
+1539800628 source:d:\eithel\ensamblador\ensamblador\main.cpp
+	<conio.h>
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
